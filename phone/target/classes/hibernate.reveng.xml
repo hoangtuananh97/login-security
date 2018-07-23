@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="dienthoai" match-name="baohanh"/>
+  <table-filter match-catalog="dienthoai" match-name="binhluan"/>
+  <table-filter match-catalog="dienthoai" match-name="bonho_luutru"/>
+  <table-filter match-catalog="dienthoai" match-name="camera"/>
+  <table-filter match-catalog="dienthoai" match-name="cauhinhphancung"/>
+  <table-filter match-catalog="dienthoai" match-name="chitietdt"/>
+  <table-filter match-catalog="dienthoai" match-name="chitiethoadon"/>
+  <table-filter match-catalog="dienthoai" match-name="chitietkm"/>
+  <table-filter match-catalog="dienthoai" match-name="chucvu"/>
+  <table-filter match-catalog="dienthoai" match-name="chucvu_nguoidung"/>
+  <table-filter match-catalog="dienthoai" match-name="dienthoai"/>
+  <table-filter match-catalog="dienthoai" match-name="dm_hdh"/>
+  <table-filter match-catalog="dienthoai" match-name="dm_manhinh"/>
+  <table-filter match-catalog="dienthoai" match-name="giaitri_ungdung"/>
+  <table-filter match-catalog="dienthoai" match-name="hedieuhanh"/>
+  <table-filter match-catalog="dienthoai" match-name="hinhanhdt"/>
+  <table-filter match-catalog="dienthoai" match-name="hoadon"/>
+  <table-filter match-catalog="dienthoai" match-name="ketnoi_cong"/>
+  <table-filter match-catalog="dienthoai" match-name="khuyenmai"/>
+  <table-filter match-catalog="dienthoai" match-name="manhinh"/>
+  <table-filter match-catalog="dienthoai" match-name="mucgia"/>
+  <table-filter match-catalog="dienthoai" match-name="nguoidung"/>
+  <table-filter match-catalog="dienthoai" match-name="thietke_trongluong"/>
+  <table-filter match-catalog="dienthoai" match-name="thongtinpin"/>
+  <table-filter match-catalog="dienthoai" match-name="thuonghieu"/>
+  <table-filter match-catalog="dienthoai" match-name="traloi_bl"/>
+</hibernate-reverse-engineering>

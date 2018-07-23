@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dienthoai</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.search.autoregister_listeners">false</property>
+  <property name="hibernate.validator.apply_to_ddl">false</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.current_session_context_class">thread</property>
+  <mapping class="com.java.phone.entities.Thuonghieu"/>
+  <mapping class="com.java.phone.entities.Chucvu"/>
+  <mapping class="com.java.phone.entities.Nguoidung"/>
+  <mapping class="com.java.phone.entities.Camera"/>
+  <mapping class="com.java.phone.entities.KetnoiCong"/>
+  <mapping class="com.java.phone.entities.ThietkeTrongluong"/>
+  <mapping class="com.java.phone.entities.Chitietdt"/>
+  <mapping class="com.java.phone.entities.Hedieuhanh"/>
+  <mapping class="com.java.phone.entities.GiaitriUngdung"/>
+  <mapping class="com.java.phone.entities.TraloiBl"/>
+  <mapping class="com.java.phone.entities.BonhoLuutru"/>
+  <mapping class="com.java.phone.entities.DmHdh"/>
+  <mapping class="com.java.phone.entities.Binhluan"/>
+  <mapping class="com.java.phone.entities.Thongtinpin"/>
+  <mapping class="com.java.phone.entities.ChucvuNguoidung"/>
+  <mapping class="com.java.phone.entities.Baohanh"/>
+  <mapping class="com.java.phone.entities.Khuyenmai"/>
+  <mapping class="com.java.phone.entities.Dienthoai"/>
+  <mapping class="com.java.phone.entities.Mucgia"/>
+  <mapping class="com.java.phone.entities.Cauhinhphancung"/>
+  <mapping class="com.java.phone.entities.Chitietkm"/>
+  <mapping class="com.java.phone.entities.Manhinh"/>
+  <mapping class="com.java.phone.entities.Hinhanhdt"/>
+  <mapping class="com.java.phone.entities.DmManhinh"/>
+  <mapping class="com.java.phone.entities.Hoadon"/>
+  <mapping class="com.java.phone.entities.Chitiethoadon"/>
+ </session-factory>
+</hibernate-configuration>
